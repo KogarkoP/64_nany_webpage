@@ -1,0 +1,20 @@
+.skill_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 16px 24px;
+}
+
+.icon {
+  margin-bottom: 10;
+  height: 28px;
+  width: 28px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}

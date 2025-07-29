@@ -1,0 +1,15 @@
+.language_button {
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 40px;
+  appearance: none;
+  background-image: url("../../../assets/images/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  cursor: pointer;
+}

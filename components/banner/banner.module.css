@@ -1,0 +1,133 @@
+.banner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 5rem 0;
+}
+
+.banner_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  object-fit: cover;
+  object-position: 10% 30%;
+}
+
+.gradient {
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 69, 255, 1) 0%,
+    rgba(255, 88, 71, 1) 75%,
+    rgba(255, 88, 71, 0) 100%
+  );
+  z-index: 10;
+}
+
+.banner_heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  color: #fff;
+  padding: 0 60px;
+  z-index: 15;
+}
+
+.banner_heading h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+}
+
+.banner_heading h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+}
+
+.download_app_con {
+  display: flex;
+  gap: 10px;
+}
+
+.google,
+.apple {
+  width: 130px;
+  height: 38px;
+}
+
+.google img,
+.apple img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 834px) {
+  .banner {
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: 411px;
+    justify-content: center;
+  }
+
+  .gradient {
+    height: 70%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(210, 69, 255, 1) 0%,
+      rgba(255, 88, 71, 1) 75%,
+      rgba(255, 88, 71, 0) 100%
+    );
+  }
+
+  .banner_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 10% 30%;
+  }
+
+  .banner_heading {
+    padding: 190px 40px 40px 40px;
+  }
+
+  .banner_heading h2 {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .banner_heading h4 {
+    font-size: 16px;
+    line-height: 27x;
+  }
+
+  .download_app_con {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .banner_heading {
+    padding: 190px 25px 40px 25px;
+  }
+}

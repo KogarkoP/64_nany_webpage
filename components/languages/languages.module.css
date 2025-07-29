@@ -1,0 +1,15 @@
+.languages_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .languages_wrapper {
+    grid-template-columns: 1fr;
+  }
+}

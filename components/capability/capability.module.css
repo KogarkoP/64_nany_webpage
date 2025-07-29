@@ -1,0 +1,22 @@
+.capability_wrapper {
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 16px 24px;
+}
+
+.icon {
+  margin-bottom: 10;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

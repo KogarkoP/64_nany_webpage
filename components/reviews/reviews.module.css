@@ -1,0 +1,39 @@
+.reviews_con {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 80px;
+  margin-bottom: 4rem;
+}
+
+.reviews_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.expand_button_wrapper {
+  margin: auto;
+}
+
+.expand_button_wrapper button img {
+  height: 1rem;
+  width: 1rem;
+}
+
+@media (max-width: 834px) {
+  .reviews_con {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reviews_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
