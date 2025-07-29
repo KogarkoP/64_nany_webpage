@@ -12,7 +12,7 @@ type RewiesProps = {
 
 const Reviews = ({ reviews }: RewiesProps) => {
   const reviewCount = reviews.length;
-  const [isExpanded, setExpanded] = useState(false);
+  const [isExpanded, setExpanded] = useState<boolean>(false);
   const [width, setWidth] = useState<number>(0);
   const shortenedReviews = isExpanded
     ? reviews
